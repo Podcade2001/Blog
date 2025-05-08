@@ -476,14 +476,14 @@ https://templatemo.com/tm-562-space-dynamic
       </div>
     </div>
   </div>
-
+<!--
   <div id="contact" class="contact-us section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
           <div class="section-heading">
-            <h2>Feel Free To Share Your experience on my Application</h2>
-            <p>Your feedback helps us improve our app</p>
+            <h2>N'hésitez pas à partager votre expérience sur mon application </h2>
+            <p>Vos commentaires nous aident à améliorer notre application</p>
             <div class="phone-info">
               <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="#">0714-8276XX</a></span></h4>
             </div>
@@ -504,8 +504,8 @@ https://templatemo.com/tm-562-space-dynamic
         (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Veuillez activer JavaScript pour voir les commentaires.</noscript>
-          <!--<form id="contact" action="" method="post">
+ <!--<noscript>Veuillez activer JavaScript pour voir les commentaires.</noscript>
+         <form id="contact" action="" method="post">
             <div class="row">
               <div class="col-lg-6">
                 <fieldset>
@@ -536,11 +536,61 @@ https://templatemo.com/tm-562-space-dynamic
             <div class="contact-dec">
               <img src="assets/images/contact-decoration.png" alt="">
             </div>
-          </form> -->
-        </div>
+          </form> 
+          
+          <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+            */
+            var disqus_config = function () {
+                this.page.url = 'https://podcade2001.github.io/Blog/';  // Remplacez par l'URL canonique de votre page
+                this.page.identifier = 'blog-page'; // Remplacez par un identifiant unique pour votre page
+            };
+            (function() { // NE PAS MODIFIER EN DESSOUS DE CETTE LIGNE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://guide-du-prof.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>-->
+        <div id="contact" class="contact-us section">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                      <div class="section-heading">
+                          <h2>N'hésitez pas à partager votre expérience sur mon application</h2>
+                          <p>Vos commentaires nous aident à améliorer notre application</p>
+                          <div class="phone-info">
+                              <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="#">0714-8276XX</a></span></h4>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                      <div id="disqus_thread"></div>
+                      <script>
+                          var disqus_config = function () {
+                              this.page.url = 'https://podcade2001.github.io/Blog/';  // URL canonique de votre page
+                              this.page.identifier = 'blog-page'; // Identifiant unique pour votre page
+                          };
+      
+                          (function() {
+                              var d = document, s = d.createElement('script');
+                              s.src = 'https://guide-du-prof.disqus.com/embed.js'; // Nom de votre sous-domaine Disqus
+                              s.setAttribute('data-timestamp', +new Date());
+                              (d.head || d.body).appendChild(s);
+                          })();
+                      </script>
+                      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                  </div>
+              </div>
+          </div>
+      </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <footer>
     <div class="container">
@@ -556,6 +606,6 @@ https://templatemo.com/tm-562-space-dynamic
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
-
+  <script id="dsq-count-scr" src="//guide-du-prof.disqus.com/count.js" async></script>
 </body>
 </html>
